@@ -1,3 +1,13 @@
-from math import pi
-r = float(input ("Raadius : "))
-print ("Raadius on " + str(r) + " is: " + str(pi * r**2))
+print("Raadius: ")
+r = float(input())
+pi = 3.14
+c = 2 * pi * r
+print("umbermoot = ", c)
+
+print("Raadius")
+r = float(input())
+pi = 3.14
+c = pi * r * r
+print("Pindala on = ", c)
+
+#git demo
