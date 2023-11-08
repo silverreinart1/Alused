@@ -4,7 +4,7 @@ while True:
     user_action = input("Kas (kivi, paber, käärid)?: ")
     possible_actions = ["kivi", "paber", "käärid"]
     computer_action = random.choice(possible_actions)
-    print(f"\nYou chose {user_action}, computer chose {computer_action}.\n")
+    print(f"\nSina {user_action}, Arvuti {computer_action}.\n")
 
     if user_action == computer_action:
         print(f"vali {user_action}. See oli viik! ")
