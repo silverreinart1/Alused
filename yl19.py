@@ -1,13 +1,8 @@
-import random
-num = random.randint(1, 100)
-quess = None
+string = input('Sisesta tekst:')
+vowels = 0
 
-while quess != num:
-    quess = input("Arva number 1-100: ")
-    quess = int(quess)
+for i in string:
+      if(i=='a' or i=='e' or i=='i' or i=='o' or i=='u' or i=='õ' or i=='ä' or i=='ö' or i=='ü' ):
+            vowels=vowels+1
 
-    if quess == num:
-        print("Õige JAAAAA")
-        break
-    else:
-        print("VALE!!!!!! :(")
+print(vowels)
