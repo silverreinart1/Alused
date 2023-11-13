@@ -24,6 +24,6 @@ while True:
         else:
             print("Anlaki! LLL")
 
-    play_again = input("Uuesti? (jah/ei): ")
-    if play_again.lower() != "jah":
+    play_again = input("Uuesti? (ja/ei): ")
+    if play_again.lower() != "ja":
         break
