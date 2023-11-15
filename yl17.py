@@ -1,2 +1,4 @@
-for a in range(1, 6):
-    print(a)
+i = -5
+while i < 6:
+  print(i)
+  i += 2

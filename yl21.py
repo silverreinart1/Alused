@@ -8,6 +8,8 @@ while quess != num:
 
     if quess == num:
         print("Õige JAAAAA")
-        break
+    elif quess > num:
+        print("On liiga suur")
     else:
-        print("VALE!!!!!! :(")
+        print("On liiga väike")
+        

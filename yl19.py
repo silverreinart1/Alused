@@ -1,8 +1,9 @@
 string = input('Sisesta tekst:')
-vowels = 0
+count = 0
+vowels = ["a","e","i","o","u","õ","ä","ö","ü"]
 
-for i in string:
-      if(i=='a' or i=='e' or i=='i' or i=='o' or i=='u' or i=='õ' or i=='ä' or i=='ö' or i=='ü' ):
-            vowels=vowels+1
+for i in string.lower():
+      if i in vowels:
+            count += 1
 
-print(vowels)
+print(count)

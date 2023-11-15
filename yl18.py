@@ -1,2 +1,2 @@
-for a in reversed(range(1,6)):
+for a in range(5, 0, -1):
    print (a)
