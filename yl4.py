@@ -1,5 +1,5 @@
-a = input("Sisesta arv: ")
-b = input("Sisesta arv: ")
+a = input("Esimene rv: ")
+b = input("Teine arv: ")
 
 
 if int(a) < int(b) :
